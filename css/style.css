@@ -19,6 +19,14 @@ body {
     color: #244e45;
 }
 
+#links_cells{
+    text-align: center;
+    height: 100%;
+    font-family: Verdana;
+    font-size: auto;
+    color: #244e45;
+}
+
 h1 {
     font-family: Verdana;
     color: #244e45;
@@ -39,7 +47,6 @@ p {
     text-align: center;
     font-size: 30px;
     color: #244e45;
-    margin: 50px;
 }
 
 img{
@@ -54,9 +61,21 @@ img{
     border: 6px solid #9eff71;
     border-radius: 20px;
     margin: 40px 400px 30px 400px;
-    padding: 10px 0px;
+    padding: 20px 0px;
     font-family: Arial;
     font-size: 24px;
+}
+
+.project_title {
+    background-color: white;
+    background-image: linear-gradient(to top, #9eff71, #e4fbff);
+    border: 6px solid #9eff71;
+    border-radius: 20px;
+    margin: 40px 400px 30px 400px;
+    padding: 10px 0px;
+    font-family: Verdana;
+    font-size: 30px;
+    text-align: center;
 }
 
 .project {
@@ -64,8 +83,8 @@ img{
     margin: auto;
     margin-top: 16px;
     padding: 12px;
-    width: 1300px;
-    height: 550px;
+    width: 50%;
+    height: 100%;
     background-color: #fbffed;
     border: 6px solid #9eff71;
     border-radius: 16px;
@@ -117,18 +136,22 @@ a:active {
     text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    body {
-        animation: scrolling 6s linear infinite;
-    }
+#img_projects {
+    height: 80%;
+    width: 65%;
+    border-radius: 20px;
+    border: 5px solid #fbffed;
+    margin:auto;
+}
 
-    @keyframes scrolling {
-        0% {
-            background-position: left top, center;
-        }
 
-        100% {
-            background-position: left 950px, center;
-        }
-    }
+#img_projects:hover {
+    filter: brightness(120%);
+    border: 5px dotted #3de0f5;
+}
+
+#img_program {
+    height: 10%;
+    width: 10%;
+    margin:auto;
 }
