@@ -71,8 +71,7 @@ img{
     background-image: linear-gradient(to top, #9eff71, #e4fbff);
     border: 6px solid #9eff71;
     border-radius: 20px;
-    margin: 40px 400px 30px 400px;
-    padding: 10px 0px;
+    margin: 100%, 70%, 100%, 70%;
     font-family: Verdana;
     font-size: 30px;
     text-align: center;
@@ -151,7 +150,6 @@ a:active {
 }
 
 #img_program {
-    height: 10%;
-    width: 10%;
+    width: 20%;
     margin:auto;
 }
