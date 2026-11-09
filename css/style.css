@@ -188,23 +188,70 @@ a:active {
     color: #244e45;
 }
 
-#body_maniarcana {
-    background-image: linear-gradient(to top, #ff64a8, #dbc0ff, #ffffff, #dbc0ff, #ff64a8);
+#body_frond {
+    background-image: linear-gradient(to top, #ff7e33, #ffe6ab, #ffffff, #ffe6ab, #ff7e33);
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 
-.project_man {
+.project_frond {
     display: block;
     margin: auto;
     margin-top: 16px;
     padding: 12px;
     width: 80%;
     height: 100%;
-    background-color: #dbc0ff;
-    border: 10px outset #a864ff;
+    background-color: #ffe6ab;
+    border: 10px groove #ff7e33;
+    border-radius: 1px;
+}
+
+#frond_cells{
+    text-align: center;
+    height: 100%;
+    border: 10px groove #ff7e33;
     border-radius: 4px;
+    border-collapse: collapse;
+    border-color: #ff7e33;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #ffe6ab, #ff7e33);
+    font-family: Verdana;
+    font-size: 40px;
+    color: #244e45;
+}
+
+#body_maniarcana {
+    background-image: linear-gradient(to top, #e63e87, #fabca5, #ffffff, #fabca5, #e63e87);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.project_mania {
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+    padding: 12px;
+    width: 80%;
+    height: 100%;
+    background-color: #fabca5;
+    border: 10px solid #e63e87;
+    border-radius: 4px;
+}
+
+#mania_cells{
+    text-align: center;
+    height: 100%;
+    border: 10px solid #fabca5;
+    border-radius: 4px;
+    border-collapse: collapse;
+    border-color: #e63e87;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #fabca5, #e63e87);
+    font-family: Verdana;
+    font-size: 40px;
+    color: #244e45;
 }
 
 #dualcell {
@@ -213,6 +260,6 @@ a:active {
     border-collapse: collapse;
     font-family: Arial;
     color: #244e45;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-wrap: stable;
 }
