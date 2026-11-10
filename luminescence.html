@@ -20,7 +20,7 @@
         <table id="table_nav">
             <tbody>
                 <tr>
-                    <th id="dualcell"><img id="img_projects" src="assets/luminescence_screenshot.png" style="width: 100%;" alt="Screenshot of the game Luminescence with its beautiful cave environment glistening through purple geodes."></th>
+                    <th id="dualcell"><img id="img_projects" src="assets/luminescence_screenshot.png" style="width: 100%;" alt="Screenshot of the game Luminescence with its beautiful cave environment glistening through purple geodes." onclick=imgLarge("assets/luminescence_screenshot.png")></th>
                     <th id="dualcell"><img id="img_projects" src="assets/luminescence_screenshot.png" style="width: 100%;" alt="Screenshot of the game Luminescence."></th>
                 </tr>
                 <tr>
@@ -40,5 +40,12 @@
             </tbody>
         </table>
     </nav>
+
+    <div id="overlay" onclick=imgNormal()><img id="overlayImg"></div> <!-- add this to the end of each html file-->
+    <script> 
+         function imgLarge(imgId=""){document.getElementById("overlay").style.display = "block"; document.getElementById("overlayImg").src = imgId; document.body.classList.add('locked');}
+         function imgNormal(){document.getElementById("overlay").style.display = "none"; document.body.classList.remove('locked');}
+    </script>
+
 </body>
 </html>
