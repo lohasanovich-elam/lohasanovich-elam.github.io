@@ -9,7 +9,7 @@
     <h1 style="font-size:72px; text-align:center;">MANIARCANA</h1>
 
     <nav class="project_mania">
-            <p style="margin: 5px" ;><b> Project Team Scale: </b>Programmer + 3D Artist</p>
+        <p style="margin: 5px" ;><b> Project Team Scale: </b>Programmer + 3D Artist</p>
         <p style="margin: 5px" ;><b> Project Role: </b>Programmer</p>
         <p style="margin: 5px" ;><b> Development Time: </b>2 Months</p>
         <p style="margin: 5px" ;><b> Project Runtime: </b>December 2025 - January 2026</p>
@@ -20,12 +20,12 @@
         <table id="table_nav">
             <tbody>
                 <tr>
-                    <th id="dualcell"><img id="img_projects" src="assets/maniarcana_screenshot.png" style="width: 100%;" alt="Game Screenshot."></th>
-                    <th id="dualcell"><img id="img_projects" src="assets/maniarcana_screenshot.png" style="width: 100%;" alt="Game Screenshot."></th>
+                    <th id="dualcell"><img id="img_projects" src="assets/maniarcana_screenshot.png" style="width: 100%;" alt="Game Screenshot." onclick=imgLarge("assets/maniarcana_screenshot.png")></th>
+                    <th id="dualcell"><img id="img_projects" src="assets/maniarcana_screenshot.png" style="width: 100%;" alt="Game Screenshot." onclick=imgLarge("assets/maniarcana_screenshot.png")></th>
                 </tr>
                 <tr>
                     <th id="dualcell">Each player starts out with seven cards which all have an attack and health value, the attack value takes away from the enemies health until they ultimately get removed from the players deck. Each turn increments the turn value, which shows how far the Player is into the round and the Players + Enemy Health Chips is a visual for when they are defeated or still standing. <br> <br> This game may have been a large hurdle when getting into more extensive programming as this was a more rule-based system heavy game. On top of the surplus of values, there was also visual 3D work which I had struggled to import due to creative hurdles with my 3D Artist. Despite recognising the fault in this project, It still is a project I feel as if is integral to seeing my development evolve. If I were to go back to this project I would like to improve the visuals and tweak some of the gameplay as there was a sizable chunk of concepts that didn't make it before its development concluded.</th>
-                    <th id="dualcell"><img id="img_projects" src="assets/maniarcana_screenshot.png" style="width: 100%;" alt="Game Screenshot."></th>
+                    <th id="dualcell"><img id="img_projects" src="assets/maniarcana_screenshot.png" style="width: 100%;" alt="Game Screenshot." onclick=imgLarge("assets/maniarcana_screenshot.png")></th>
                 </tr>
             </tbody>
         </table>
@@ -40,5 +40,12 @@
             </tbody>
         </table>
     </nav>
+
+    <div id="overlay" onclick=imgNormal()><img id="overlayImg"></div>
+    <script>
+
+        function imgLarge(imgId=""){document.getElementById("overlay").style.display = "block"; document.getElementById("overlayImg").src = imgId; document.body.classList.add('locked');}
+        function imgNormal(){document.getElementById("overlay").style.display = "none"; document.body.classList.remove('locked');}
+    </script>
 </body>
 </html>

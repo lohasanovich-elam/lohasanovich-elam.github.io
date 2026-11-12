@@ -5,28 +5,27 @@
     border-radius: 10px;
     border-collapse: collapse;
     background-color: #f4ffd9;
-    font-family: Verdana;
+    font-family: 'Courier New';
     font-size: 40px;
     color: #244e45;
 }
 
-#links_cells{
+#links_cells {
     text-align: center;
-    height: 100%;
-    font-family: Verdana;
+    font-family: 'Courier New';
     font-size: 24px;
     color: #244e45;
 }
 
 h1 {
-    font-family: Verdana;
+    font-family: 'Courier New';
     color: #244e45;
     text-align: center;
     margin: 20px;
 }
 
 h2 {
-    font-family: Verdana;
+    font-family: 'Courier New';
     color: #244e45;
     text-align: center;
     margin: 5px;
@@ -34,7 +33,7 @@ h2 {
 
 
 p {
-    font-family: Arial;
+    font-family: 'Courier New';
     text-align: center;
     font-size: 30px;
     color: #244e45;
@@ -51,10 +50,17 @@ img{
     background-image: linear-gradient(to bottom, #ffffff, #f4ffd9);
     border: 6px solid #86d461;
     border-radius: 20px;
-    margin: 40px 400px 30px 400px;
     padding: 20px 0px;
-    font-family: Arial;
+    font-family: 'Courier New';
     font-size: 24px;
+    width: 75%;
+    margin: auto;
+}
+
+#project_table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 .project_title {
@@ -63,7 +69,7 @@ img{
     border: 6px solid #86d461;
     border-radius: 10px;
     margin: 100%, 70%, 100%, 70%;
-    font-family: Verdana;
+    font-family: 'Courier New';
     font-size: 30px;
     text-align: center;
 }
@@ -71,9 +77,9 @@ img{
 .project {
     display: block;
     margin: auto;
-    margin-top: 16px;
+    margin-top: 20px;
     padding: 12px;
-    width: 50%;
+    width: 90%;
     height: 100%;
     background-color: #fbffed;
     border: 6px solid #86d461;
@@ -177,7 +183,7 @@ body.locked {
     border-radius: 4px;
 }
 
-#lum_cells{
+#lum_cells {
     text-align: center;
     height: 100%;
     border: 10px outset #a864ff;
@@ -186,7 +192,7 @@ body.locked {
     border-color: #a864ff;
     background-color: #ffffff;
     background-image: linear-gradient(to top, #dbc0ff, #a864ff);
-    font-family: Verdana;
+    font-family: 'Courier New';
     font-size: 40px;
     color: #244e45;
 }
@@ -210,7 +216,7 @@ body.locked {
     border-radius: 1px;
 }
 
-#frond_cells{
+#frond_cells {
     text-align: center;
     height: 100%;
     border: 10px groove #ff7e33;
@@ -219,7 +225,7 @@ body.locked {
     border-color: #ff7e33;
     background-color: #ffffff;
     background-image: linear-gradient(to top, #ffe6ab, #ff7e33);
-    font-family: Verdana;
+    font-family: 'Courier New';
     font-size: 40px;
     color: #244e45;
 }
@@ -243,7 +249,7 @@ body.locked {
     border-radius: 4px;
 }
 
-#mania_cells{
+#mania_cells {
     text-align: center;
     height: 100%;
     border: 10px solid #fabca5;
@@ -252,7 +258,7 @@ body.locked {
     border-color: #e63e87;
     background-color: #ffffff;
     background-image: linear-gradient(to top, #fabca5, #e63e87);
-    font-family: Verdana;
+    font-family: 'Courier New';
     font-size: 40px;
     color: #244e45;
 }
@@ -261,7 +267,7 @@ body.locked {
     text-align: center;
     width: 50%;
     border-collapse: collapse;
-    font-family: Arial;
+    font-family: 'Courier New';
     color: #244e45;
     font-size: 1.8rem;
     text-wrap: stable;
