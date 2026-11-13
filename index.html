@@ -6,11 +6,11 @@
     <link rel="icon" href="assets/favicon.svg"/>
 </head>
 <body id="body_main">
-    <h1 style="font-size:72px; text-align:center;">WELCOME!</h1>
-    <h2 style="font-size: 20px; text-align: center;">Luccas OH - Programmer Portfolio</h2>
-    <table id="table_nav">
+    <h1 id="mainpage"></h1>
+    <table id="table_navigation">
         <tbody>
             <tr id="top_cells">
+                <th id="top_cells" ;>Luccas OH.</th>
                 <th id="top_cells"><a href="#aboutme">ABOUT</a></th>
                 <th id="top_cells"><a href="#myprojects">PROJECTS</a></th>
                 <th id="top_cells"><a href="#contacts">CONTACTS</a></th>
@@ -18,13 +18,15 @@
             </tr>
         </tbody>
     </table>
-    <p title="About Me" id="aboutme" style="font-size: 43px;" ;><b><ins>ABOUT</ins></b></p>
-    <p style="margin: 10px" ;><b> HELLO! </b>My name is Luccas and I am a Game Programmer! <br> I am mostly familiar with that of Unity and how its native programming language, C#, works.</p>
+    <h1 style="font-size: 48px; text-align: center" ;"><br>Luccas OH.</h1>
+    <h1 style="font-size: 48px; text-align: center; margin-top: -70px; font-weight: normal" ;"><br>Games Programmer</h1>
+    <h2 title="About Me" id="aboutme" style="font-size: 44px;" ;><b><ins>ABOUT</ins></b></h2>
+    <p style="margin: 30px" ;> Hello! My name is Luccas and I am a Game Programmer! <br> I am mostly familiar with that of Unity and how its native programming language, C#, works.</p>
 
 
     <div class="divider"></div>
 
-    <h1 title="Projects" id="myprojects" style="font-size: 40px;" ;><b><ins>PROJECTS</ins></b></h1>
+    <h2 title="Projects" id="myprojects" style="font-size: 44px;" ;><b><ins>PROJECTS</ins></b></h2>
 
     <table id="project_table">
         <tbody>
@@ -37,16 +39,14 @@
                         <img id="img_projects" src="assets/luminescence_screenshot.png" alt="Screenshot of the game Luminescence with its beautiful cave environment glistening through purple geodes.">
                         <p style="margin: 15px" ;><b><ins> SYNOPSIS: </ins></b>
                         <p style="margin: 30px" ;>'LUMINESCENCE' is a 2D-Platformer where the emotionally struggling character, 'Lumi', enters a mysterious cave that allows them to reflect on their past...</p>
-                        <div class="project_buttons">
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td><a class="button" href="luminescence.html">SEE MORE</a></td>
-                                        <td><img id="img_program" src="assets/unitylogo.png" alt="Made with Unity"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><a id="button" href="luminescence.html">SEE MORE</a></td>
+                                    <td><img id="img_program" src="assets/unitylogo.png" alt="Made with Unity"></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </nav>
                 </td>
                 <td>
@@ -60,7 +60,7 @@
                         <table>
                             <tbody>
                                 <tr>
-                                    <td id="top_cells"><a href="frond-frolic.html">SEE MORE</a></td>
+                                    <td id="button"><a href="frond-frolic.html">SEE MORE</a></td>
                                     <td><img id="img_program" src="assets/unitylogo.png" alt="Made with Unity"></td>
                                 </tr>
                             </tbody>
@@ -90,10 +90,9 @@
     </table>
 
     <div class="divider"></div>
-
     <!-- CONTACTS + LINKS -->
 
-    <p title="My Contacts" id="contacts" style="font-size: 43px;" ;><b><ins>CONTACTS</ins></b></p>
+    <p title="My Contacts" id="contacts" style="font-size: 44px;" ;><b><ins>CONTACTS</ins></b></p>
     <nav class="linkarea">
         <table id="table_nav">
             <tbody>
@@ -106,7 +105,7 @@
 
     <div class="divider"></div>
 
-    <p title="Links" id="links" style="font-size: 43px;" ;><b><ins>LINKS</ins></b></p>
+    <p title="Links" id="links" style="font-size: 44px;" ;><b><ins>LINKS</ins></b></p>
     <nav class="linkarea">
         <table id="table_nav">
             <tbody>
@@ -117,5 +116,6 @@
             </tbody>
         </table>
     </nav>
+    <p id="top_cells" style=" margin-top: 2rem" ;><a href="#mainpage">GO BACK TO TOP</a> </p>
 </body>
 </html>

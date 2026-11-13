@@ -1,32 +1,28 @@
 #top_cells {
     text-align: center;
-    border: 6px solid #86d461;
     border-radius: 10px;
     border-collapse: collapse;
     background-color: #f4ffd9;
     font-family: 'Courier New';
     font-size: 40px;
     color: #244e45;
-    table-layout: fixed;
+    table-layout: auto;
     margin: auto;
-    object-fit: fill;
+    padding: 10px,10px;
 }
 
-.button {
+#button {
     text-align: center;
-    border: 6px solid #86d461;
+    border: solid 5px #86d461;
     border-radius: 10px;
+    border-collapse: collapse;
     background-color: #f4ffd9;
-    color: white;
-    text-decoration: none;
-    padding: 9% 12%;
-    display: inline-block;
+    font-family: 'Courier New';
+    font-size: 40px;
+    color: #244e45;
+    table-layout: auto;
     margin: auto;
-    font-family: "Courier New";
-}
-
-.button:hover {
-    background-color: #ffffff;
+    padding: 10px,10px;
 }
 
 #links_cells {
@@ -40,7 +36,7 @@ h1 {
     font-family: 'Courier New';
     color: #244e45;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 h2 {
@@ -65,7 +61,7 @@ img{
 }
 
 .linkarea {
-    background-color: white;
+    background-color: #f4ffd9;
     background-image: linear-gradient(to bottom, #ffffff, #f4ffd9);
     border: 6px solid #86d461;
     border-radius: 20px;
@@ -90,13 +86,14 @@ img{
 }
 
 .project_title {
-    background-color: white;
-    border: 6px solid #86d461;
-    border-radius: 10px;
+    background-color: #f4ffd9;
+    border: 5px solid #86d461;
+    border-radius: 5px;
     margin: 100%, 70%, 100%, 70%;
     font-family: 'Courier New';
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: center;
+    margin: auto;
 }
 
 .project {
@@ -116,9 +113,11 @@ img{
 }
 
 .divider {
-    margin-top: 16px;
+    margin-top: 20px;
     margin-bottom: 16px;
-    border-top: 6px solid #8be660;
+    border-top: 4px solid #86d461;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
 }
 
 #table_nav {
@@ -126,6 +125,18 @@ img{
     width: 100%;
     height: 100%;
     text-align: center;
+}
+
+#table_navigation {
+    table-layout: fixed;
+    width: 99%;
+    height: 5%;
+    background: #86d461;
+    border-radius: 10px;
+    border: solid 6px #86d461;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }
 
 .project_buttons {
@@ -285,12 +296,24 @@ body.locked {
 }
 
 #dualcell {
+    vertical-align: top;
+    font-weight: initial;
     text-align: center;
     width: 50%;
     border-collapse: collapse;
     font-family: 'Courier New';
     color: #244e45;
-    font-size: 1.8rem;
+    font-size: 20px;
+    text-wrap: stable;
+}
+
+#dualcell_img2 {
+    font-weight: initial;
+    width: 50%;
+    border-collapse: collapse;
+    font-family: 'Courier New';
+    color: #244e45;
+    font-size: 20px;
     text-wrap: stable;
 }
 
