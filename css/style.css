@@ -12,6 +12,23 @@
     object-fit: fill;
 }
 
+.button {
+    text-align: center;
+    border: 6px solid #86d461;
+    border-radius: 10px;
+    background-color: #f4ffd9;
+    color: white;
+    text-decoration: none;
+    padding: 9% 12%;
+    display: inline-block;
+    margin: auto;
+    font-family: "Courier New";
+}
+
+.button:hover {
+    background-color: #ffffff;
+}
+
 #links_cells {
     text-align: center;
     font-family: 'Courier New';
@@ -115,22 +132,6 @@ img{
     margin: 10px 12.5%;
     width: 75%;
     height: 200px;
-}
-
-.button {
-    background-color: #86d461;
-    color: white;
-    text-decoration: none;
-    padding: 9% 12%;
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 20px;
-    border-radius: 16px;
-    font-family: "Courier New";
-}
-
-.button:hover {
-    background-color: #ffffff;
 }
 
 a:link {
